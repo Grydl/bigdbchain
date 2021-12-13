@@ -100,9 +100,14 @@ ne pas oublier de se placer dans le repertoire ./docker avant
 
 Maintenant nous pouvons faire la configuration du réseau
 
+se connecter au container
+
+docker exec -it xxxxxxxxx bash 
+
 Chaque bigchaindb est identifier par :
 - **hostname :** il s’agit du nom de domaine or de son IP
-pub_key.value : la clé publique du node Tendermint, la clé privée se trouve dans le repertoire .
+  
+- **pub_key.value :** la clé publique du node Tendermint, la clé publique se trouve dans le repertoire .
 *.tendermint/config/priv_validator.json*
 
 - **node_id :** l’identifiant du noeud Tendermint, pour obtenir le node_id , il faut lancer la commande
