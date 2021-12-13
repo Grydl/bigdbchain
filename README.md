@@ -114,6 +114,11 @@ Chaque bigchaindb est identifier par :
 
 ``tendermint show_node_id``
 
+Stopper le container avec la commande ci-dessous dans le cas d'utilisationde  docker-compose
+docker.
+ne pas oublier de se placer dans le repertoire ./docker avant
+
+``docker-compose down ``
 
 Il faut maintenant créer le fichier **genesis**  qui se trouve dans le répertoire  :
 *tendermint/config/genesis.json*
